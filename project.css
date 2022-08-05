@@ -105,7 +105,7 @@ h5,h6{
   font-weight: bold;
   font-size: 0.8em;
 }
-#profile-card button{
+#profile-card #more{
   background: #185adb;
   color: white;
   padding: 10px 20px;
@@ -115,7 +115,7 @@ h5,h6{
   margin-top: 50%;
   cursor: pointer;
 }
-#profile-card button i{
+#profile-card #more i{
   position: relative;
   animation: move .5s linear alternate infinite;
 }
@@ -123,7 +123,7 @@ h5,h6{
   from{left: -10px}
   to{left: 0px}
 }
-#profile-card button:active{
+#profile-card #more:active{
   width: 50%;
 }
 #profile-card2{
