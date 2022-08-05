@@ -1,4 +1,4 @@
-window.onload=()=>{
+$(function() {
     setTimeout( ()=>{
         document.getElementById("coer").style.display="none";
     }, 2000);
@@ -19,14 +19,17 @@ let body = document.querySelector('body');
     body.style.background= "#ffc947";
 });
 
+//declaring the words variable
+let words1,words2,words3,words4;
+
 let box1 = document.getElementById("box1");
 let box2 = document.getElementById("box2");
 let box3 = document.getElementById("box3");
 let box4 = document.getElementById("box4");
-let words1 = "Founder and CEO at <b>Meta</b>.";
-let words2 = "Works at <b>Chan Zuckerberg Initiative</b>.";
-let words3 = "Studied <b>Computer Science and Psychology</b> at Harvard University.";
-let words4 = "Lives in <b>Palo Alto, California</b> while from <b>Dobbs Ferry, New York</b>.";
+words1 = "Founder and CEO at <b>Meta</b>.";
+words2 = "Works at <b>Chan Zuckerberg Initiative</b>.";
+words3 = "Studied <b>Computer Science and Psychology</b> at Harvard University.";
+words4 = "Lives in <b>Palo Alto, California</b> while from <b>Dobbs Ferry, New York</b>.";
     let word1 = '';
     let word2 = '';
     let word3 = '';
@@ -81,4 +84,4 @@ function write4(){
     },10000);
 }
 //Writing functionality
-}
+});
