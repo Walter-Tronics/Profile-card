@@ -22,6 +22,18 @@ let body = document.querySelector('body');
 //declaring the words variable
 let words1,words2,words3,words4;
 
+//Opening the side bar
+$('#openBtn').on('click', ()=>{
+    $("#mySidebar").css({"left":"0", "transition":"1s"});
+});
+//Opening the side bar ends
+
+//Closing the side bar
+$('#closeBtn').on('click', ()=>{
+    $("#mySidebar").css({"left":"-100%", "transition":"1s"});
+});
+//Closing the side bar ends
+
 let box1 = document.getElementById("box1");
 let box2 = document.getElementById("box2");
 let box3 = document.getElementById("box3");
