@@ -76,7 +76,44 @@ h5,h6{
   transform: translate(-50%,-50%);
   left: 50%;
   top: 50%;
+  overflow-x: hidden;
+  box-shadow: 1px 4px 20px #000;
 }
+/*=============Sidebar================*/
+#mySidebar{
+  width: 85%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  left: -100%;
+}
+#subSidebar{
+  width: 85%;
+  height: 100%;
+  background-color: #ffc947;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#subSidebar button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  color: #0a1931;
+}
+#subSidebar a{
+  text-decoration: none;
+  color: #0a1931;
+  font-size: 20px;
+  font-weight: bold;
+  transition: .5s;
+}
+/*=============Sidebar ends================*/
 #profile-card{
   background: url('mark5.jpg');
   height: 100%;
@@ -84,7 +121,7 @@ h5,h6{
   background-position: center;
   color: white;
   text-align: center;
-  box-shadow: 1px 4px 20px  black;
+  box-shadow: 1px 4px 20px #000;
 }
 #profile-card h4{
   display: inline-block;
