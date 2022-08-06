@@ -24,26 +24,27 @@
       <div id="profile-card">
 
         <!--Side menu starts-->
-        <section>
-          <div class="w3-sidebar w3-bar-block w3-border-right" id="mySidebar">
-            <button onclick="w3_close()" class="w3-bar-item w3-large">&times;</button>
-            <!--links starts-->
-            <a href="" class="w3-bar-item w3-button">Home</a>
-            <a href="" class="w3-bar-item w3-button">About</a>
-            <a href="" class="w3-bar-item w3-button">Contact</a>
-          </div>
-        </section>
+          <section id="mySidebar">
+            <div class="w3-sidebar w3-bar-block" id="subSidebar">
+              <button id="closeBtn" class="w3-xxxlarge">&times;</button>
+              <!--links starts-->
+              <a href="" class="w3-hover-none w3-button">Larry Page</a>
+              <a href="" class="w3-hover-none w3-button">Jeff Bezos</a>
+              <a href="" class="w3-hover-none w3-button">Elon Musk</a>
+              <a href="" class="w3-hover-none w3-button">Mark Zuckerberg</a>
+            </div>
+          </section>
         <!--Side menu ends-->
 
         <div>
-          <span class="fas fa-bars" style="color: white;float: left;" onclick="alert('sorry, not working😐')"></span>
+          <span class="fas fa-bars" style="color: white;float: left;" id="openBtn"></span>
           <h4>WORLD'S BILLIONAIRES</h4>
           <span class="fas fa-search" style="float: right;" onclick="alert('sorry, not working😐')"></span>
-          <h3>MARK ZUCKERBERG</h2>
-          <h5>CEO at Facebook</h5>
-          <h6>#15<br><span>RANK</span></h6>
-          <h6>$67.3 B<br><span>NET WORTH</span></h6>
-          <h6>37<br><span>AGE</span></h6>
+          <h3 class="name">MARK ZUCKERBERG</h2>
+          <h5 class="pos">CEO at Facebook</h5>
+          <h6 id="rank">#15<br><span>RANK</span></h6>
+          <h6 id="worth">$67.3 B<br><span>NET WORTH</span></h6>
+          <h6 id="age">37<br><span>AGE</span></h6>
           <button id="more"><i class="fas fa-arrow-right"></i> MORE</button>
         </div>
       </div>
@@ -52,8 +53,8 @@
       <!--Internal more card starts-->
       <div id="profile-card2">
         <div id="top">
-          <span class="fas fa-arrow-left" id="return"></span><h3>Mark Zuckerberg</h3>
-          <h6>CEO at Facebook</h6>
+          <span class="fas fa-arrow-left" id="return"></span><h3 class="name">Mark Zuckerberg</h3>
+          <h6 class="pos">CEO at Facebook</h6>
           <div id="markimg" class="w3-circle"></div>
           <a href="https://www.facebook.com/zuck"><i class="fab fa-facebook"></i> Follow</a>
           <p>119,190,922 Followers</p>
