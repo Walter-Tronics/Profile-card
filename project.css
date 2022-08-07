@@ -125,7 +125,7 @@ h5,h6{
   box-shadow: 1px 4px 20px #000;
 }
 #profile-card-2{
-  background: url('images/larry2.jpg');
+  background: url('images/larry22.jpg');
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -134,7 +134,7 @@ h5,h6{
   box-shadow: 1px 4px 20px #000;
 }
 #profile-card-3{
-  background: url('images/jeff1.jpg');
+  background: url('images/jeff11.jpg');
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -143,7 +143,7 @@ h5,h6{
   box-shadow: 1px 4px 20px #000;
 }
 #profile-card-4{
-  background: url('images/elon1.jpg');
+  background: url('images/elon11.jpg');
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -270,7 +270,7 @@ h5,h6{
 }
 #profile-card2-2 #top{
   height: 55%;
-  background-image: url('images/larry3.jpg');
+  background-image: url('images/larry33.jpg');
   background-position: center;
   background-size: cover;
   color: white;
@@ -279,7 +279,7 @@ h5,h6{
 }
 #profile-card2-3 #top{
   height: 55%;
-  background-image: url('images/jeff2.jpg');
+  background-image: url('images/jeff22.jpg');
   background-position: center;
   background-size: cover;
   color: white;
@@ -288,7 +288,7 @@ h5,h6{
 }
 #profile-card2-4 #top{
   height: 55%;
-  background-image: url('images/elon2.jpg');
+  background-image: url('images/elon22.jpg');
   background-position: center;
   background-size: cover;
   color: white;
