@@ -264,6 +264,7 @@ h5,h6{
   background-image: url('images/mark6.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
   padding: 0px 10px;
@@ -273,6 +274,7 @@ h5,h6{
   background-image: url('images/larry33.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
   padding: 0px 10px;
