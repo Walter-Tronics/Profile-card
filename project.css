@@ -68,8 +68,7 @@ h5,h6{
 .container{
   height: 97%;
   max-height: 550px;
-  width: 95%;
-  max-width: 300px;
+  width: min(95%,300px);
   position: absolute;
   transform: translate(-50%,-50%);
   left: 50%;
